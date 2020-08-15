@@ -1,0 +1,102 @@
+
+body{
+	background: pink; 
+}
+h1{
+	background: white; 
+	color: black;
+}
+.h1style{
+	background:green;
+	color: white; 
+}
+#h1id{
+	background: yellow; 
+	color: black; 
+}
+.linkformate{
+	font-size: 20px; 
+
+}
+
+a:link{ /*pseudo selector*/
+	color: green; 
+}
+
+
+.image{
+
+	height: 200px;
+	width: 300px;
+	float: right;
+	margin: 20px;
+
+}
+.divstyle{
+
+	height: 300px; 
+	width: 400px; 
+	background: linear-gradient(to right,red,green,yellow,black,pink);
+}
+.paragraph{
+
+	/*about font*/
+	font-size: 25px;
+	font-style: bold;
+	color: green;
+	font-family: sans-serif;
+
+    /*about text*/
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: justify;
+
+}
+
+.container{
+
+	height: 200px;
+	padding: 20px;
+	width: 90%;
+	background: white;
+    display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.subcontainer{
+	
+	height: 50%; 
+	width: 100px; 
+	background: green; 
+	margin: 10px;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.scroll{
+	display: block;
+	height: 400px; 
+	width: 200px; 
+	background: white; 
+	overflow: scroll;
+	float: left;
+	margin-bottom: 30px;
+	border: 2px solid red;
+}
+.auto{
+	display: block;
+	height: 400px; 
+	float: left;
+	width: 200px; 
+	margin-left: 20px;
+	background: white; 
+	overflow: auto;
+	border: 5px double red;
+	margin-bottom: 30px;
+}
+.clear{
+	clear: both;
+}

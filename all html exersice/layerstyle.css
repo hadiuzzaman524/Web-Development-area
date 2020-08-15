@@ -1,0 +1,36 @@
+.div-one{
+	height: 200px;
+	width: 200px;
+background: green;
+position: relative; 
+z-index: 2;
+}
+.div-two{
+	height: 200px;
+	width: 200px; 
+background: red;
+position: relative;
+z-index: 1
+}
+.div-three{
+
+	height: 200px;
+	width: 200px;
+background: yellow;
+position: relative;
+z-index: 3
+
+}
+a:link{
+	color: pink;
+
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	color:black;
+}
+a:active{
+	color: blue;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-style{
+  background: whitesmoke;
+    text-align: center;
+    height: 200px;
+    width: auto;
+    color: whitesmoke;
+}
+.div-class{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.clear{
+    clear: both;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 50%; 
+    margin-top: 20px;
+    margin-left: 30%;
+}
+a:hover{
+    color: coral;
+}
+.main-class{
+    height: auto;
+    width: auto;
+    background:whitesmoke;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.main-class h1{
+  
+}
+
+#first{
+    height: 200px;
+    width: 30%;
+   
+    float: left;
+    
+}
+#second{
+     height: 200px;
+    width: 30%;
+   
+    margin-left: 20px;
+    float: left;
+    
+}
+#third{
+    
+     height: 200px;
+    width: 30%;
+
+    margin-left: 20px;
+    float: left;
+}
+.main-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    height: 300px;
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+.right{
+   height: 300px;
+    width: 65%;
+   
+    padding: 5px;
+    float: right;
+   
+}
+.left p:first-line{
+    color: red;
+}
+p:first-letter{
+    font-size: 2em;
+}
+h2:first-letter{
+    color: red;
+    font-size: 1.3em;
+}
+h1:first-child{
+    color: red;
+    font-style: oblique;
+}
+

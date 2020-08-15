@@ -1,0 +1,72 @@
+
+
+body{
+background:pink; 
+font-family: sans-serif;
+}
+
+.container{
+	max-width:1100px; 
+	background:white; 
+	margin:0 auto; 
+	padding:5px; 
+	
+}
+
+img{
+border-radius:50%; 
+border:1px solid; 
+border-color:green; 
+width:200px; 
+height:200px; 	
+float:left;
+}
+.information
+{
+	padding:50px;
+	float:left;
+}
+.contact{
+	padding:50px; 
+	float:right;
+	font-size:20px;
+}
+.contact a{
+	text-decoration:none;
+	color:black;
+}
+.contact a:hover{
+	text-decoration:underline;
+	color:red;
+}
+hr{
+	border:2px solid; 
+	
+}
+.div-clear{
+	clear:both;
+	
+	padding:30px;
+	padding-top:0px;
+}
+.main-div{
+	padding: 20px;
+}
+.left-div{
+	width: 30%; 
+	float: left;
+}
+.right-div{
+	width: 70%; 
+	float: left;
+}
+.sub-div{
+	width: 45%; 
+	float: left;
+
+
+}
+p{
+
+	text-align: justify;
+}
